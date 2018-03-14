@@ -8,7 +8,9 @@ declare namespace Menu {
         /** Callback that fires when the Menu closes. */
         onClose?: (evt: Event) => any,
         /** Callback that fires when a Menu item is selected. */
-        onSelected?: (evt: Event) => any
+        onSelected?: (evt: Event) => any,
+        /** Manually position the menu to one of the corners */
+        achorCorner?: string,
     }
 }
 

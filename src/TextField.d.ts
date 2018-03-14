@@ -11,6 +11,16 @@ declare namespace TextField {
         inputRef?: React.Ref<any>,
         /** Disables the input. */
         disabled?: boolean,
+        /** Mark the input as required. */
+        requred?: boolean,
+        /** Makes the TextField visual invalid.  This is sometimes automatically applied in cases where required and pattern is used. */
+        invalid?: boolean,
+        /** Makes the TextField dense. */
+        dense?: boolean,
+        /** Makes the TextField have a visual box. */
+        box?: boolean,
+        /** Outline the TextField */
+        outlined?: boolean,
         /** A label for the input. */
         label?: React.ReactNode,
         /** Add a leading icon. */
@@ -23,8 +33,6 @@ declare namespace TextField {
         textarea?: boolean,
         /** Makes the TextField fullwidth. */
         fullwidth?: boolean,
-        /** Makes the TextField have a visual box. */
-        box?: boolean
     }
 }
 

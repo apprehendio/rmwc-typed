@@ -5,8 +5,10 @@ declare namespace Snackbar {
     export interface SnackbarProps extends RMWC.SimpleBaseProps<Snackbar> {
         /** Show the Snackbar. */
         show?: boolean,
-        /** A callback thats fired when the Snackbar closes. */
-        onClose?(): any,
+        /** A callback thats fired when the Snackbar shows. */
+        onShow?(evt: Event): any,
+        /** A callback thats fired when the Snackbar hides. */
+        onHide?(evt: Event): any,
         /** A string or other renderable JSX to be used as the message body. */
         message?: React.ReactNode,
         /** Milliseconds to show the Snackbar for. */

@@ -6,6 +6,8 @@ declare namespace Slider {
     export interface SliderProps extends RMWC.RMWCTagProps {
         /** A callback that takes an event with event.target.value set to the Slider's value. */
         onChange?(evt: Event): any,
+        /** A callback that fires contiunually that takes an event with event.target.value set to the Slider's value. */
+        onInput?(evt: Event): any,
         /** The value of the Slider. */
         value?: number | string,
         /** The minimum value of the Slider. */

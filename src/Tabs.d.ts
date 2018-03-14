@@ -10,6 +10,11 @@ declare namespace Tabs {
         activeTabIndex: number
     }
 
+    export interface TabBarScrollerProps extends RMWC.RMWCTagProps {
+        indicatorForward?: React.Node,
+        indicatorBackward?: React.Node,
+    }
 }
 export declare class TabBar extends React.Component<Tabs.TabBarProps> { }
 export declare class Tab extends React.Component<RMWC.SimpleBaseProps<Tab>> { }
+export declare class TabBarScroller extends TabBarScrollerProps { }

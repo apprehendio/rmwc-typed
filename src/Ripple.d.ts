@@ -8,7 +8,9 @@ declare namespace Ripple {
         /** Uses the accent palette. */
         accent?: boolean,
         /** Lets a ripple grow outside of its bounds, just like on Checkboxes. */
-        unbounded?: boolean
+        unbounded?: boolean,
+        /** Adds a ripple to the surface */
+        needsRippleSurface?: boolean
     }
 }
 

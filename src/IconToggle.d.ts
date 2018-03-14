@@ -6,6 +6,7 @@ declare namespace IconToggle {
         onChange(evt: Object): boolean | Event | undefined;
         on: Object;
         off: Object;
+        checked?: boolean;
         value?: boolean;
     }
 

@@ -16,3 +16,4 @@ declare namespace Grid {
 
 export declare class GridCell extends React.Component<Grid.GridCellProps> { }
 export declare class Grid extends React.Component<RMWC.SimpleBaseProps<Grid>> { }
+export declare class GridInner extends React.Component<RMWC.SimpleBaseProps<Grid>> { }

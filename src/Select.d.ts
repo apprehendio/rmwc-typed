@@ -11,6 +11,8 @@ declare namespace Select {
         placeholder?: string,
         /** Disables the form control. */
         disabled?: boolean,
+        /** Makes the Select have a visual box */
+        box?: boolean,
         /** Selected value */
         value?: string
     }

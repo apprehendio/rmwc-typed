@@ -21,8 +21,6 @@ export declare class GridListTiles extends React.Component<RMWC.SimpleBaseProps<
 
 export declare class GridTile extends React.Component<RMWC.SimpleBaseProps<GridTile>>{ }
 
-// export declare class GridTilePrimaryRoot extends React.Component<SimpleTagProps> { }
-
 export declare class GridTilePrimaryContent extends React.Component<RMWC.SimpleBaseProps<GridTilePrimaryContent>> { }
 
 export declare class GridTilePrimary extends React.Component<RMWC.SimpleBaseProps<GridTilePrimary>> { }

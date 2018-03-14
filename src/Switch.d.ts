@@ -11,7 +11,9 @@ declare namespace Switch {
         /** Toggle the control on and off. */
         checked?: boolean | string,
         /** A label for the control. */
-        label?: string
+        label?: string,
+        /** Props for the root element.  By default, props spread to the input. */
+        rootProps?: Object
     }
 }
 
